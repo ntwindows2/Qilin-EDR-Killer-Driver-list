@@ -2,15 +2,56 @@
 
 > **Source**: Reverse-engineered from the Qilin EDR killer PE binary  
 > **Reference**: [Talos Intelligence - Qilin EDR Killer](https://blog.talosintelligence.com/qilin-edr-killer/)  
-
+> **Purpose**: Threat intelligence / detection engineering reference
 
 ---
 
 ## Table of Contents
 
+- [Targeted AV/EDR Vendors](#targeted-avedr-vendors)
 - [Targeted Executables (Processes)](#targeted-executables-processes)
 - [Targeted Kernel Drivers](#targeted-kernel-drivers)
 - [Vulnerable Drivers Used by the Killer](#vulnerable-drivers-used-by-the-killer)
+
+---
+
+## Targeted AV/EDR Vendors
+
+The EDR killer targets **31 vendors** across the security industry:
+
+| # | Vendor |
+|---|--------|
+| 1 | Microsoft Defender |
+| 2 | Kaspersky |
+| 3 | Sophos |
+| 4 | ESET |
+| 5 | SentinelOne |
+| 6 | CrowdStrike |
+| 7 | Trend Micro |
+| 8 | McAfee / Trellix |
+| 9 | FireEye / Trellix XDR |
+| 10 | Symantec / Broadcom |
+| 11 | Bitdefender |
+| 12 | Webroot |
+| 13 | Panda Security (WatchGuard) |
+| 14 | Sangfor |
+| 15 | Fortinet FortiEDR |
+| 16 | Avast |
+| 17 | AVG |
+| 18 | Cylance (BlackBerry) |
+| 19 | Qihoo 360 |
+| 20 | QAX (Qi-Anxin) |
+| 21 | F-Secure / WithSecure |
+| 22 | Check Point / ZoneAlarm |
+| 23 | ThreatLocker |
+| 24 | HP Client Security |
+| 25 | Bromium (HP Sure Click) |
+| 26 | eScan (MicroWorld) |
+| 27 | Google Cloud Guest Agent |
+| 28 | AhnLab |
+| 29 | Cisco / Immunet |
+| 30 | Huorong |
+| 31 | Antiy (AVL SDK) |
 
 ---
 
